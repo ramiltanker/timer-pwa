@@ -1,0 +1,25 @@
+.downloadModal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.downloadModalTitle {
+    text-align: center;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.buttons button {
+    width: 100%;
+    max-width: 100px;
+}

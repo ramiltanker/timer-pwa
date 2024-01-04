@@ -1,0 +1,4 @@
+:root {
+    --modal-z-index: 999999;
+    --overlay-color: rgb(177 173 173 / 40%);
+}

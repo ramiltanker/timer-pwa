@@ -1,0 +1,99 @@
+.modal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: var(--modal-z-index);
+}
+
+.modal p, h1,h2,h3,h4,h5,h6 {
+    color: var(--text-color-primary);
+}
+
+.isAbsolute {
+    position: absolute;
+}
+
+.isCentered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enter {
+    transition: opacity 200ms ease;
+}
+
+.enterFrom {
+    opacity: 0;
+}
+
+.enterTo {
+    opacity: 1;
+}
+
+.leave {
+    transition: opacity 200ms ease;
+}
+
+.leaveFrom {
+    opacity: 1;
+}
+
+.leaveTo {
+    opacity: 0;
+}
+
+.closeBtn {
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+.closeBtn svg {
+    fill: #74788D;
+    stroke: #74788D;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: all 300ms ease;
+}
+
+.content {
+    overflow-x: hidden;
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid var(--bg-primary);
+    background: var(--bg-primary);
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 / 25%);
+    transition: all 300ms ease;
+    opacity: 0;
+    width: 100%;
+    max-width: 500px;
+}
+
+.isClosing {
+    .content {
+        opacity: 0;
+    }
+
+    .overlay {
+        background: transparent;
+    }
+}
+
+.isOpening {
+    .content {
+        opacity: 1;
+    }
+
+    .overlay {
+        background: var(--overlay-color);
+    }
+}

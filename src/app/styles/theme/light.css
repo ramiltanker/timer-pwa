@@ -1,0 +1,15 @@
+:root {
+    --bg-primary: #ffffff;
+    --bg-secondary: #01131e;
+    --bg-tertiary: #f9f9f9;
+    --text-color-primary: #000000;
+    --text-color-primary-inverted: #ffffff;
+
+    --button-bg-primary: #e9e9e9;
+    --button-bg-positive: #03AE85;
+    --button-bg-negative: #FD6259;
+    --button-bg-neutral: #D1D1D1;
+
+    --input-bg-primary: #ffffff;
+    --input-border-color-primary: #dbdbdb;
+}

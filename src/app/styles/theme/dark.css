@@ -1,0 +1,15 @@
+.app_dark_theme {
+  --bg-primary: #01131e;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #011c2c;
+  --text-color-primary: #ffffff;
+  --text-color-primary-inverted: #000000;
+
+  --button-bg-primary: #00273f;
+  --button-bg-positive: #03AE85;
+  --button-bg-negative: #FD6259;
+  --button-bg-neutral: #D1D1D1;
+
+  --input-bg-primary: #011c2c;
+  --input-border-color-primary: #dbdbdb;
+}

@@ -1,0 +1,35 @@
+.header {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 22px 36px 0 0;
+}
+
+.themeSwitcher {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: none;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 300ms ease;
+}
+
+.themeSwitcher:hover {
+  opacity: 0.7;
+}
+
+@media all and (max-width: 465px) {
+  .container {
+    margin-right: 0;
+    margin-right: 15px;
+  }
+}
